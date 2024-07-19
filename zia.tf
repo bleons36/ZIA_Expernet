@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "zia" {
-  username      = 'admin@lab.expernet.co.kr'
-  password      = 'Zia@1234'
-  api_key       = 'BoHpT3cZwqsd'
-  zia_cloud     = 'zscaler'
+  username      = "admin@lab.expernet.co.kr"
+  password      = "Zia@1234"
+  api_key       = "BoHpT3cZwqsd"
+  zia_cloud     = "zscaler"
 }

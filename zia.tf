@@ -14,7 +14,7 @@ provider "zia" {
   zia_cloud     = "zscaler"
 }
 
-resource "zia_url_categories" "terraform test" {
+resource "zia_url_categories" "terraform_test" {
   super_category      = "USER_DEFINED"
   configured_name     = "MCAS Unsanctioned Apps"
   description         = "MCAS Unsanctioned Apps"

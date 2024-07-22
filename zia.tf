@@ -33,5 +33,6 @@ resource "zia_url_categories" "terraform_test" {
     ".baidu.com",
     ".cnn.com",
     ".level3.com",
+    ".expernet.co.kr"
   ]
 }
